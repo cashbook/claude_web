@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하늘병원 - 내과 전문</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 네비게이션 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">하늘병원</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">홈</a></li>
+                <li><a href="#about" class="nav-link">병원소개</a></li>
+                <li><a href="#services" class="nav-link">진료과목</a></li>
+                <li><a href="#doctors" class="nav-link">의료진</a></li>
+                <li><a href="#contact" class="nav-link">연락처</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 히어로 섹션 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>하늘병원</h1>
+            <p>당신의 건강을 위한 최고의 내과 진료</p>
+            <button class="cta-btn" onclick="scrollToSection('#contact')">예약하기</button>
+        </div>
+    </section>
+
+    <!-- 병원 소개 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>병원 소개</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>환자 중심의 의료 서비스</h3>
+                    <p>하늘병원은 25년간 지역사회의 건강을 책임지는 내과 전문 의료기관입니다.</p>
+                    <ul class="about-list">
+                        <li>✓ 최신 의료 장비 도입</li>
+                        <li>✓ 경험 많은 전문 의료진</li>
+                        <li>✓ 편안한 진료 환경</li>
+                        <li>✓ 정확한 진단과 맞춤형 치료</li>
+                    </ul>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-box">
+                        <h4>25년</h4>
+                        <p>운영 경력</p>
+                    </div>
+                    <div class="stat-box">
+                        <h4>5000+</h4>
+                        <p>월간 외래 환자</p>
+                    </div>
+                    <div class="stat-box">
+                        <h4>98%</h4>
+                        <p>환자 만족도</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 진료 과목 -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>진료 과목</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🫀</div>
+                    <h3>심장 질환</h3>
+                    <p>고혈압, 협심증, 부정맥 등 심장 질환 진단 및 치료</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🫁</div>
+                    <h3>호흡기 질환</h3>
+                    <p>감기, 천식, 만성기관지염 등 호흡기 질환 치료</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🍽️</div>
+                    <h3>소화기 질환</h3>
+                    <p>위염, 소화불량, 위궤양 등 소화기 질환 진료</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🩺</div>
+                    <h3>당뇨병</h3>
+                    <p>혈당 관리 및 당뇨병 합병증 예방 치료</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💊</div>
+                    <h3>감염병</h3>
+                    <p>감염성 질환 진단 및 항생제 치료</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚖️</div>
+                    <h3>일반 검진</h3>
+                    <p>종합 건강검진 및 예방적 의료 관리</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 의료진 -->
+    <section id="doctors" class="doctors">
+        <div class="container">
+            <h2>의료진 소개</h2>
+            <div class="doctors-grid">
+                <div class="doctor-card">
+                    <div class="doctor-image">👨‍⚕️</div>
+                    <h3>이준호 원장</h3>
+                    <p class="doctor-title">내과 전문의</p>
+                    <p class="doctor-info">서울의대 졸업 / 신촌세브란스 수련 완료<br>대한 내과학회 정회원</p>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-image">👨‍⚕️</div>
+                    <h3>김성준 의사</h3>
+                    <p class="doctor-title">내과 전문의</p>
+                    <p class="doctor-info">연세의대 졸업 / 삼성서울병원 수련 완료<br>심장 질환 전문</p>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-image">👩‍⚕️</div>
+                    <h3>박지영 의사</h3>
+                    <p class="doctor-title">내과 전문의</p>
+                    <p class="doctor-info">고려의대 졸업 / 안암병원 수련 완료<br>소화기 질환 전문</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 진료 시간 -->
+    <section class="hours">
+        <div class="container">
+            <h2>진료 시간</h2>
+            <div class="hours-content">
+                <div class="hours-box">
+                    <h3>평일</h3>
+                    <p>09:00 - 18:00</p>
+                </div>
+                <div class="hours-box">
+                    <h3>토요일</h3>
+                    <p>09:00 - 13:00</p>
+                </div>
+                <div class="hours-box">
+                    <h3>일요일·공휴일</h3>
+                    <p>휴진</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 연락처 및 예약 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>연락처 및 예약</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>📞 전화</h3>
+                        <p><strong>02-1234-5678</strong></p>
+                    </div>
+                    <div class="info-item">
+                        <h3>📍 위치</h3>
+                        <p>서울시 강남구 테헤란로 123<br>하늘빌딩 3층</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>🚗 주차</h3>
+                        <p>건물 지하 1~3층 완비</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <h3>온라인 예약</h3>
+                    <input type="text" placeholder="성명" required>
+                    <input type="tel" placeholder="전화번호" required>
+                    <input type="email" placeholder="이메일" required>
+                    <select required>
+                        <option value="">진료 과목 선택</option>
+                        <option value="heart">심장 질환</option>
+                        <option value="respiratory">호흡기 질환</option>
+                        <option value="digestive">소화기 질환</option>
+                        <option value="diabetes">당뇨병</option>
+                        <option value="infection">감염병</option>
+                        <option value="checkup">일반 검진</option>
+                    </select>
+                    <textarea placeholder="증상 및 문의사항" rows="4"></textarea>
+                    <button type="submit" class="submit-btn">예약 신청</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 하늘병원. 모든 권리 보유.</p>
+            <p>의료법 준수 | 개인정보보호정책 | 이용약관</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
